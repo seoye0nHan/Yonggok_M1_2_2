@@ -1,0 +1,1695 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>용곡중 1학년 2학기 중간고사 직전 자료 – 품사 함정 총정리</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#fffaf0;
+  --card:#fff;
+  --ink:#2b3145;
+  --sub:#6b7186;
+  --line:#eadfc8;
+  --mint:#d7f5e6;
+  --mintd:#1f8f63;
+  --sky:#dcecff;
+  --skyd:#2a6fd1;
+  --peach:#ffe3d6;
+  --peachd:#d2582c;
+  --butter:#fff1b8;
+  --butterd:#a67c00;
+  --pink:#ffdff0;
+  --pinkd:#c23f8f;
+}
+
+@media(prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#1d2033;
+    --card:#272b42;
+    --ink:#f1f2f8;
+    --sub:#a7abc4;
+    --line:#3a3f5c;
+    --mint:#1d4a3a;
+    --mintd:#7be0b0;
+    --sky:#1f3a63;
+    --skyd:#8fc0ff;
+    --peach:#5a3325;
+    --peachd:#ffab8a;
+    --butter:#584a12;
+    --butterd:#ffe27a;
+    --pink:#57284a;
+    --pinkd:#ff9ed6;
+  }
+}
+
+:root[data-theme="dark"]{
+  --bg:#1d2033;
+  --card:#272b42;
+  --ink:#f1f2f8;
+  --sub:#a7abc4;
+  --line:#3a3f5c;
+  --mint:#1d4a3a;
+  --mintd:#7be0b0;
+  --sky:#1f3a63;
+  --skyd:#8fc0ff;
+  --peach:#5a3325;
+  --peachd:#ffab8a;
+  --butter:#584a12;
+  --butterd:#ffe27a;
+  --pink:#57284a;
+  --pinkd:#ff9ed6;
+}
+
+html{
+  scroll-padding-top:env(safe-area-inset-top,0px);
+  scroll-behavior:smooth;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font:16px/1.7 "Noto Sans KR",system-ui,sans-serif;
+}
+
+.wrap{
+  max-width:760px;
+  margin:0 auto;
+  padding:20px 16px 60px;
+}
+
+h1,h2,h3{
+  font-family:"Jua","Noto Sans KR",sans-serif;
+  font-weight:400;
+  margin:0;
+}
+
+header{
+  text-align:center;
+  padding:28px 12px 8px;
+}
+
+.badge{
+  display:inline-block;
+  background:var(--butter);
+  color:var(--butterd);
+  border-radius:99px;
+  padding:4px 14px;
+  font-weight:700;
+  font-size:14px;
+}
+
+h1{
+  font-size:clamp(28px,7vw,40px);
+  margin:12px 0 6px;
+  line-height:1.25;
+}
+
+header p{
+  color:var(--sub);
+  margin:0;
+}
+
+.mascot{
+  font-size:54px;
+  line-height:1;
+}
+
+nav{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin:20px 0 8px;
+}
+
+nav a{
+  background:var(--card);
+  border:2px solid var(--line);
+  color:var(--ink);
+  text-decoration:none;
+  border-radius:99px;
+  padding:4px 12px;
+  font-size:14px;
+  font-weight:500;
+}
+
+nav a:focus-visible,
+summary:focus-visible{
+  outline:3px solid var(--skyd);
+  outline-offset:2px;
+}
+
+section{
+  margin-top:32px;
+}
+
+h2{
+  font-size:26px;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  margin-bottom:12px;
+}
+
+.card{
+  background:var(--card);
+  border:2px solid var(--line);
+  border-radius:22px;
+  padding:16px 18px;
+  margin-bottom:14px;
+}
+
+.card h3{
+  font-size:20px;
+  margin-bottom:8px;
+}
+
+.tip{
+  background:var(--butter);
+  color:var(--ink);
+  border-radius:16px;
+  padding:10px 14px;
+  margin:10px 0 0;
+  font-weight:500;
+}
+
+.tip b{
+  color:var(--butterd);
+}
+
+.row{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:6px 8px;
+  padding:6px 0;
+  border-top:1px dashed var(--line);
+}
+
+.row:first-of-type{
+  border-top:0;
+}
+
+.s{
+  flex:1 1 200px;
+}
+
+.s u{
+  text-decoration:none;
+  background:linear-gradient(transparent 60%,var(--butter) 60%);
+  font-weight:700;
+}
+
+.t{
+  font-size:13px;
+  font-weight:700;
+  border-radius:99px;
+  padding:2px 11px;
+  white-space:nowrap;
+}
+
+.a{
+  background:var(--sky);
+  color:var(--skyd);
+}
+
+.b{
+  background:var(--mint);
+  color:var(--mintd);
+}
+
+.c{
+  background:var(--peach);
+  color:var(--peachd);
+}
+
+.d{
+  background:var(--pink);
+  color:var(--pinkd);
+}
+
+.e{
+  background:var(--butter);
+  color:var(--butterd);
+}
+
+.vs{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+}
+
+.vs>div{
+  border-radius:16px;
+  padding:10px 14px;
+}
+
+.vs .x{
+  background:var(--sky);
+}
+
+.vs .y{
+  background:var(--mint);
+}
+
+.vs h4{
+  margin:0 0 4px;
+  font-family:"Jua",sans-serif;
+  font-weight:400;
+  font-size:18px;
+}
+
+.vs p{
+  margin:2px 0;
+  font-size:15px;
+}
+
+@media(max-width:480px){
+  .vs{
+    grid-template-columns:1fr;
+  }
+}
+
+.chips{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+}
+
+.chips span{
+  border-radius:99px;
+  padding:2px 12px;
+  font-size:15px;
+  font-weight:500;
+}
+
+.warn{
+  background:var(--peach);
+  border-radius:16px;
+  padding:10px 14px;
+  margin-top:10px;
+  font-weight:500;
+}
+
+.warn b{
+  color:var(--peachd);
+}
+
+details{
+  border-top:1px dashed var(--line);
+  padding:6px 0;
+}
+
+details:first-of-type{
+  border-top:0;
+}
+
+summary{
+  cursor:pointer;
+  font-weight:500;
+  list-style:none;
+  display:flex;
+  gap:8px;
+  align-items:baseline;
+  border-radius:10px;
+}
+
+summary::-webkit-details-marker{
+  display:none;
+}
+
+summary::after{
+  content:"정답 보기";
+  margin-left:auto;
+  font-size:12px;
+  font-weight:700;
+  background:var(--sky);
+  color:var(--skyd);
+  border-radius:99px;
+  padding:1px 10px;
+  white-space:nowrap;
+}
+
+details[open] summary::after{
+  content:"닫기";
+  background:var(--line);
+  color:var(--sub);
+}
+
+summary .n{
+  font-family:"Jua",sans-serif;
+  color:var(--pinkd);
+}
+
+summary u{
+  text-decoration:none;
+  background:linear-gradient(transparent 60%,var(--butter) 60%);
+  font-weight:700;
+}
+
+.ans{
+  margin:6px 0 4px 26px;
+  color:var(--sub);
+  font-size:15px;
+}
+
+.ans b{
+  color:var(--ink);
+}
+
+.final{
+  background:var(--pink);
+  border:2px solid var(--pinkd);
+  border-radius:20px;
+  padding:15px 17px;
+  margin-top:12px;
+}
+
+.final h3{
+  margin-bottom:6px;
+}
+
+.final p{
+  margin:4px 0;
+}
+
+footer{
+  text-align:center;
+  color:var(--sub);
+  margin-top:40px;
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrap">
+
+<header>
+  <div class="mascot">🐣📝</div>
+  <span class="badge">2026 · 용곡중 1학년 2학기 중간고사</span>
+  <h1>국어 문법 직전 자료<br>품사 함정 총정리</h1>
+  <p>“이거 뭐였지?” 싶은 헷갈리는 것만 쏙쏙 뽑았어요</p>
+
+  <nav>
+    <a href="#s1">이·그·저</a>
+    <a href="#s2">두/둘</a>
+    <a href="#s3">감탄사</a>
+    <a href="#s4">같이/처럼</a>
+    <a href="#s5">동사·형용사</a>
+    <a href="#s6">활용형</a>
+    <a href="#s7">부사</a>
+    <a href="#s8">의존명사</a>
+    <a href="#s9">추가 함정</a>
+    <a href="#s10">확인 문제</a>
+  </nav>
+</header>
+
+
+<!-- 1 -->
+<section id="s1">
+
+<h2>🔍 1. 이 · 그 · 저 · 무슨 · 어떤</h2>
+
+<div class="card">
+
+  <div class="tip">
+    <b>먼저 이렇게 생각!</b>
+    관형사는 뒤에 오는 명사를 꾸미고,
+    대명사는 사람·사물·장소 등의 이름을 대신해서 가리켜요.
+  </div>
+
+  <div class="row">
+    <span class="s"><u>이</u> 사람 / <u>이</u> 책</span>
+    <span class="t a">관형사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>이</u>와 같이 행동했다</span>
+    <span class="t b">대명사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>이것</u>은 내 것이다</span>
+    <span class="t b">대명사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>그</u> 사람 / <u>그</u> 책</span>
+    <span class="t a">관형사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">나는 <u>그</u>를 보았다</span>
+    <span class="t b">대명사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>저</u> 집은 크다</span>
+    <span class="t a">관형사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>저</u>는 학생입니다</span>
+    <span class="t b">대명사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>저것</u>은 내 것이다</span>
+    <span class="t b">대명사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>무슨</u> 일이야?</span>
+    <span class="t a">관형사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>어떤</u> 사람이 왔다</span>
+    <span class="t a">관형사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>무엇</u>을 먹을래?</span>
+    <span class="t b">대명사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>누구</u>를 만났니?</span>
+    <span class="t b">대명사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>어떠한</u> 경우에도</span>
+    <span class="t c">형용사 활용형</span>
+  </div>
+
+  <div class="warn">
+    <b>함정!</b>
+    ‘어떤’은 관형사지만 ‘어떠한’은 형용사 ‘어떠하다’의 활용형이에요.
+  </div>
+
+</div>
+
+
+<div class="card">
+
+  <h3>한눈에 비교</h3>
+
+  <div class="vs">
+
+    <div class="x">
+      <h4>관형사</h4>
+      <p>이 사람 · 그 책 · 저 집</p>
+      <p>무슨 일 · 어느 학교</p>
+      <p>어떤 사람 · 모든 학생</p>
+      <p>여러 사람 · 웬 일</p>
+    </div>
+
+    <div class="y">
+      <h4>대명사</h4>
+      <p>이것 · 그것 · 저것</p>
+      <p>이와/그와/저와 같이</p>
+      <p>무엇 · 누구</p>
+      <p>여기 · 거기 · 저기</p>
+    </div>
+
+  </div>
+
+  <div class="tip">
+    <b>주의!</b>
+    ‘조사가 붙으면 무조건 대명사’라고 외우기보다
+    <b>뒤의 명사를 꾸미는가?</b> 또는 <b>무언가를 대신 가리키는가?</b>를 먼저 확인하세요.
+  </div>
+
+</div>
+
+
+<div class="card">
+
+  <h3>🎯 특히 헷갈리는 짝</h3>
+
+  <div class="row">
+    <span class="s"><u>어떤</u> 사람이 왔다</span>
+    <span class="t a">관형사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>어떠한</u> 사람이 왔다</span>
+    <span class="t c">형용사 활용형</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>무슨</u> 일이야?</span>
+    <span class="t a">관형사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>무엇</u>을 할 거야?</span>
+    <span class="t b">대명사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>이</u> 사람</span>
+    <span class="t a">관형사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>이</u>와 같이</span>
+    <span class="t b">대명사</span>
+  </div>
+
+</div>
+
+</section>
+
+
+<!-- 2 -->
+<section id="s2">
+
+<h2>🔢 2. 수사 vs 관형사 : 두 / 둘 / 한 / 하나</h2>
+
+<div class="card">
+
+  <div class="vs">
+
+    <div class="x">
+      <h4>두 → 관형사</h4>
+      <p>두 사람</p>
+      <p>두 마리</p>
+      <p>두 마리의 고양이</p>
+    </div>
+
+    <div class="y">
+      <h4>둘 → 수사</h4>
+      <p>둘이 왔다</p>
+      <p>사람 둘</p>
+      <p>고양이 둘의 주인</p>
+    </div>
+
+  </div>
+
+  <div class="tip">
+    <b>판별법</b>
+    뒤의 명사를 꾸미면 관형사,
+    혼자 서서 수량을 나타내면 수사예요.
+  </div>
+
+</div>
+
+
+<div class="card">
+
+  <h3>한 / 하나도 같은 방식으로 보기</h3>
+
+  <div class="row">
+    <span class="s"><u>한</u> 사람</span>
+    <span class="t a">관형사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>하나</u>가 남았다</span>
+    <span class="t b">수사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">사과 <u>하나</u>를 먹었다</span>
+    <span class="t b">수사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>두</u> 명이 왔다</span>
+    <span class="t a">관형사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>둘</u>이 왔다</span>
+    <span class="t b">수사</span>
+  </div>
+
+  <div class="warn">
+    <b>함정!</b>
+    ‘한 사람’의 ‘한’과 ‘하나가’의 ‘하나’를 같은 품사라고 생각하면 안 돼요.
+  </div>
+
+</div>
+
+
+<div class="card">
+
+  <h3>⚠️ 첫째 / 둘째는 문맥 확인</h3>
+
+  <div class="row">
+    <span class="s">첫째, 건강이 중요하다.</span>
+    <span class="t b">수사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">우리 형제 중 <u>첫째</u>이다.</span>
+    <span class="t a">명사</span>
+  </div>
+
+  <div class="tip">
+    <b>시험에 나오면 문장 전체를 확인!</b>
+    순서를 나타내는지, 사람을 가리키는 명사로 쓰였는지를 살펴보세요.
+  </div>
+
+</div>
+
+</section>
+
+
+<!-- 3 -->
+<section id="s3">
+
+<h2>📣 3. 감탄사 vs 명사</h2>
+
+<div class="card">
+
+  <div class="chips" style="margin-bottom:8px">
+    <span class="d">야!</span>
+    <span class="d">어이!</span>
+    <span class="d">아!</span>
+    <span class="d">어머!</span>
+    <span class="d">앗!</span>
+    <span class="d">네!</span>
+    <span class="d">아니!</span>
+  </div>
+
+  <p style="margin:0 0 8px">
+    ↑ 이런 말들은 <b>감탄사</b>로 쓰일 수 있어요.
+  </p>
+
+  <div class="row">
+    <span class="s"><u>엄마</u>! 여기 와 봐</span>
+    <span class="t a">명사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>어머니</u>!</span>
+    <span class="t a">명사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>영희</u>야!</span>
+    <span class="t a">명사 + 조사</span>
+  </div>
+
+  <div class="warn">
+    <b>함정!</b>
+    누군가를 부른다고 무조건 감탄사가 되는 게 아니에요.
+    사람이나 대상의 이름이면 명사일 수 있어요.
+  </div>
+
+</div>
+
+
+<div class="card">
+
+  <h3>🎯 부르는 말이라고 해서 전부 감탄사?</h3>
+
+  <div class="row">
+    <span class="s"><u>야!</u> 거기 서!</span>
+    <span class="t d">감탄사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>민수야!</u> 여기 와.</span>
+    <span class="t a">명사 + 조사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>엄마!</u> 이것 좀 봐.</span>
+    <span class="t a">명사</span>
+  </div>
+
+</div>
+
+</section>
+
+
+<!-- 4 -->
+<section id="s4">
+
+<h2>🤝 4. 조사 vs 부사 : 같이 / 처럼</h2>
+
+<div class="card">
+
+  <div class="row">
+    <span class="s">친구와 <u>같이</u> 갔다</span>
+    <span class="t c">부사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">가족과 <u>같이</u> 식사했다</span>
+    <span class="t c">부사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">너<u>같이</u> 행동하지 마라</span>
+    <span class="t e">조사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">나<u>같이</u> 생각하는 사람</span>
+    <span class="t e">조사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">너<u>처럼</u> 행동해</span>
+    <span class="t e">조사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">친구<u>처럼</u> 웃었다</span>
+    <span class="t e">조사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">영화에서<u>처럼</u> 행동했다</span>
+    <span class="t e">조사</span>
+  </div>
+
+  <div class="tip">
+    <b>핵심</b>
+    ‘같이’는 띄어쓰기만 보고 판단하지 말고
+    <b>‘함께’라는 뜻으로 쓰였는지, ‘~처럼/~와 같이’라는 뜻으로 쓰였는지</b> 확인하세요.
+  </div>
+
+</div>
+
+
+<div class="card">
+
+  <h3>⚠️ 같이의 함정</h3>
+
+  <div class="row">
+    <span class="s">친구와 <u>같이</u> 공부했다 = 친구와 <u>함께</u> 공부했다</span>
+    <span class="t c">부사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">너<u>같이</u> 행동했다 = 너<u>처럼</u> 행동했다</span>
+    <span class="t e">조사</span>
+  </div>
+
+  <div class="tip">
+    <b>암기</b>
+    너와 같이 → 부사 · 너같이 → 조사 · 너처럼 → 조사
+  </div>
+
+</div>
+
+</section>
+
+
+<!-- 5 -->
+<section id="s5">
+
+<h2>🏃 5. 동사 vs 형용사</h2>
+
+<div class="card">
+
+  <h3>형용사</h3>
+
+  <div class="chips">
+    <span class="b">좋다</span>
+    <span class="b">나쁘다</span>
+    <span class="b">크다</span>
+    <span class="b">작다</span>
+    <span class="b">많다</span>
+    <span class="b">적다</span>
+    <span class="b">높다</span>
+    <span class="b">낮다</span>
+    <span class="b">길다</span>
+    <span class="b">짧다</span>
+    <span class="b">빠르다</span>
+    <span class="b">느리다</span>
+    <span class="b">예쁘다</span>
+    <span class="b">귀엽다</span>
+    <span class="b">쉽다</span>
+    <span class="b">어렵다</span>
+    <span class="b">덥다</span>
+    <span class="b">춥다</span>
+    <span class="b">맛있다</span>
+    <span class="b">싫다</span>
+    <span class="b">같다</span>
+    <span class="b">다르다</span>
+    <span class="b">필요하다</span>
+    <span class="b">중요하다</span>
+    <span class="b">없다</span>
+  </div>
+
+  <h3 style="margin-top:14px">동사</h3>
+
+  <div class="chips">
+    <span class="a">먹다</span>
+    <span class="a">마시다</span>
+    <span class="a">자다</span>
+    <span class="a">일어나다</span>
+    <span class="a">걷다</span>
+    <span class="a">뛰다</span>
+    <span class="a">읽다</span>
+    <span class="a">쓰다</span>
+    <span class="a">공부하다</span>
+    <span class="a">생각하다</span>
+    <span class="a">좋아하다</span>
+    <span class="a">싫어하다</span>
+    <span class="a">알다</span>
+    <span class="a">모르다</span>
+    <span class="a">만나다</span>
+    <span class="a">웃다</span>
+    <span class="a">울다</span>
+    <span class="a">기다리다</span>
+    <span class="a">만들다</span>
+    <span class="a">사용하다</span>
+    <span class="a">닮다</span>
+    <span class="a">맞다</span>
+    <span class="a">틀리다</span>
+  </div>
+
+  <div class="tip">
+    <b>주의</b>
+    동사를 단순히 ‘움직이는 것’이라고만 외우지 마세요.
+    ‘알다, 모르다, 닮다, 맞다’처럼 눈에 보이는 움직임이 없는 동사도 있어요.
+  </div>
+
+</div>
+
+
+<div class="card">
+
+  <h3>🎯 짝꿍 함정</h3>
+
+  <div class="row">
+    <span class="s">날씨가 <u>좋다</u> / 나는 사과를 <u>좋아한다</u></span>
+    <span class="t b">형용사</span>
+    <span class="t a">동사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">나는 매운 음식을 <u>싫다</u> → X / 매운 음식이 <u>싫다</u> → O</span>
+    <span class="t b">형용사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">나는 그 음식을 <u>싫어한다</u></span>
+    <span class="t a">동사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">돈이 <u>필요하다</u></span>
+    <span class="t b">형용사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">인력을 <u>필요로 한다</u></span>
+    <span class="t a">동사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">답이 <u>맞다</u></span>
+    <span class="t a">동사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">정답을 <u>맞혔다</u></span>
+    <span class="t a">동사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">문제가 <u>없다</u></span>
+    <span class="t b">형용사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">나는 그 사실을 <u>알았다</u></span>
+    <span class="t a">동사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">나는 그 사실을 <u>몰랐다</u></span>
+    <span class="t a">동사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">동생이 나를 <u>닮았다</u></span>
+    <span class="t a">동사</span>
+  </div>
+
+</div>
+
+
+<div class="card">
+
+  <h3>⚠️ ‘있다’는 특히 주의</h3>
+
+  <div class="row">
+    <span class="s">책이 <u>있다</u></span>
+    <span class="t b">형용사로 분류</span>
+  </div>
+
+  <div class="row">
+    <span class="s">집에 <u>있어라</u></span>
+    <span class="t a">동사로 분류</span>
+  </div>
+
+  <div class="tip">
+    <b>주의!</b>
+    ‘있다’는 문맥에 따라 품사 판정이 달라질 수 있으므로,
+    시험에서는 교과서와 선생님께서 수업에서 제시한 기준을 우선하세요.
+  </div>
+
+</div>
+
+
+<div class="card">
+
+  <h3>💡 활용으로 확인하기</h3>
+
+  <div class="row">
+    <span class="s"><u>먹는다</u></span>
+    <span class="t a">동사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>읽는다</u></span>
+    <span class="t a">동사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>크다</u> → ‘크는다’ X</span>
+    <span class="t b">형용사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>예쁘다</u> → ‘예쁘는다’ X</span>
+    <span class="t b">형용사</span>
+  </div>
+
+  <div class="tip">
+    <b>단, 이 방법은 모든 품사를 완벽하게 판별하는 공식은 아니에요.</b>
+    헷갈릴 때 사용하는 보조 방법으로 생각하세요.
+  </div>
+
+</div>
+
+</section>
+
+
+<!-- 6 -->
+<section id="s6">
+
+<h2>🔄 6. 활용형 때문에 놓치는 품사</h2>
+
+<div class="card">
+
+  <p style="margin:0 0 6px">
+    모양이 달라져도 <b>기본형이 용언이라면 기본형의 품사</b>를 확인하세요.
+  </p>
+
+  <div class="row">
+    <span class="s"><u>큰</u> 집 · <u>크게</u> 웃다</span>
+    <span class="t b">형용사 ‘크다’ 활용형</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>많은</u> 사람 · <u>많게</u> 만들다</span>
+    <span class="t b">형용사 ‘많다’ 활용형</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>높은</u> 산 · <u>높게</u> 평가하다</span>
+    <span class="t b">형용사 ‘높다’ 활용형</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>좋은</u> 사람 · <u>좋게</u> 생각하다</span>
+    <span class="t b">형용사 ‘좋다’ 활용형</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>작은</u> 집 · <u>작게</u> 만들다</span>
+    <span class="t b">형용사 ‘작다’ 활용형</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>빠른</u> 자동차 · <u>빠르게</u> 달리다</span>
+    <span class="t b">형용사 ‘빠르다’ 활용형</span>
+  </div>
+
+</div>
+
+
+<div class="card">
+
+  <h3>⚠️ 한 단계 더 : 높게 ≠ 높이</h3>
+
+  <div class="vs">
+
+    <div class="x">
+      <h4>높게 → 활용형</h4>
+      <p>형용사 ‘높다’ → <b>높게</b></p>
+      <p>능력을 <b>높게</b> 평가하다</p>
+      <p>담을 <b>높게</b> 만들다</p>
+    </div>
+
+    <div class="y">
+      <h4>높이 → 부사</h4>
+      <p><b>높이</b> 평가하다</p>
+      <p><b>높이</b> 날아오르다</p>
+      <p>산의 <b>높이</b> → 명사</p>
+    </div>
+
+  </div>
+
+  <div class="tip">
+    <b>핵심!</b>
+    ‘높게’는 형용사 ‘높다’의 활용형이고,
+    ‘높이’는 부사로 쓰일 수 있어요.
+    그런데 ‘산의 높이’에서는 명사예요.
+  </div>
+
+</div>
+
+
+<div class="card">
+
+  <h3>🎯 많이 ≠ 많게</h3>
+
+  <div class="row">
+    <span class="s">학생이 <u>많이</u> 참여했다.</span>
+    <span class="t c">부사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">사람을 <u>많게</u> 만들었다.</span>
+    <span class="t b">형용사 ‘많다’ 활용형</span>
+  </div>
+
+  <div class="row">
+    <span class="s">음식을 <u>많이</u> 먹었다.</span>
+    <span class="t c">부사</span>
+  </div>
+
+  <div class="tip">
+    <b>같은 방식</b>
+    높다 → 높게 / 높이
+    많다 → 많게 / 많이
+    크다 → 크게
+  </div>
+
+</div>
+
+</section>
+
+
+<!-- 7 -->
+<section id="s7">
+
+<h2>✨ 7. 부사로 헷갈리는 단어</h2>
+
+<div class="card">
+
+  <div class="chips">
+    <span class="c">과연</span>
+    <span class="c">제각각</span>
+    <span class="c">매우</span>
+    <span class="c">아주</span>
+    <span class="c">너무</span>
+    <span class="c">가장</span>
+    <span class="c">제일</span>
+    <span class="c">정말</span>
+    <span class="c">참</span>
+    <span class="c">잘</span>
+    <span class="c">빨리</span>
+    <span class="c">많이</span>
+    <span class="c">높이</span>
+  </div>
+
+  <div class="row" style="margin-top:8px">
+    <span class="s"><u>과연</u> 그 말이 맞을까?</span>
+    <span class="t c">부사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">학생들은 <u>제각각</u> 다른 생각을 했다.</span>
+    <span class="t c">부사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>제일</u> <u>큰</u> 가방</span>
+    <span class="t c">부사</span>
+    <span class="t b">형용사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>매우</u> 좋은 생각</span>
+    <span class="t c">부사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">학생들이 <u>많이</u> 참여했다.</span>
+    <span class="t c">부사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">새가 <u>높이</u> 날아올랐다.</span>
+    <span class="t c">부사</span>
+  </div>
+
+  <div class="tip">
+    <b>암기</b>
+    ‘제일 큰 가방’ → 가방 = 명사 / 큰 = 형용사 활용형 / 제일 = 부사
+  </div>
+
+</div>
+
+</section>
+
+
+<!-- 8 -->
+<section id="s8">
+
+<h2>📦 8. 의존명사 : 것 · 수 · 개 · 마리 · 명 · 바</h2>
+
+<div class="card">
+
+  <div class="warn">
+    <b>시험범위 확인!</b>
+    이 부분은 시험 범위가 아니어서 꼭 볼 필요는 없어요.
+  </div>
+
+  <div class="row">
+    <span class="s">할 <u>수</u> 있다 · 아는 <u>바</u>가 없다</span>
+    <span class="t a">의존명사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">한 <u>개</u> · 두 <u>마리</u> · 세 <u>명</u></span>
+    <span class="t a">의존명사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">먹을 <u>것</u>이 없다</span>
+    <span class="t a">의존명사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">내가 먹은 <u>것</u>은 빵이다.</span>
+    <span class="t a">의존명사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>이것</u>은 내 책이다.</span>
+    <span class="t b">대명사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>저것</u>을 가져와.</span>
+    <span class="t b">대명사</span>
+  </div>
+
+  <div class="tip">
+    <b>비교</b>
+    이것 → 대명사 · 할 것 → 의존명사
+  </div>
+
+</div>
+
+</section>
+
+
+<!-- 9 -->
+<section id="s9">
+
+<h2>🚨 9. 시험 직전 추가 함정</h2>
+
+
+<div class="card">
+
+  <h3>① 관형사라고 착각하기 쉬운 말</h3>
+
+  <div class="row">
+    <span class="s"><u>모든</u> 학생</span>
+    <span class="t a">관형사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>여러</u> 사람</span>
+    <span class="t a">관형사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>어느</u> 학교</span>
+    <span class="t a">관형사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>웬</u> 일</span>
+    <span class="t a">관형사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>온</u> 세상</span>
+    <span class="t a">관형사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>온갖</u> 생각</span>
+    <span class="t a">관형사</span>
+  </div>
+
+  <div class="tip">
+    <b>포인트</b>
+    ‘여러, 모든, 어느, 웬’처럼 뒤에 명사를 바로 꾸미는 말도 관형사예요.
+  </div>
+
+</div>
+
+
+<div class="card">
+
+  <h3>② 대명사 함정</h3>
+
+  <div class="row">
+    <span class="s"><u>누구</u>가 왔니?</span>
+    <span class="t b">대명사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>누구</u>를 만났니?</span>
+    <span class="t b">대명사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>무엇</u>을 먹었니?</span>
+    <span class="t b">대명사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>여기</u>에 놓아라.</span>
+    <span class="t b">대명사</span>
+  </div>
+
+  <div class="row">
+    <span class="s"><u>거기</u>에 사람이 있다.</span>
+    <span class="t b">대명사</span>
+  </div>
+
+  <div class="tip">
+    <b>암기</b>
+    누구 · 무엇 · 이것 · 그것 · 저것 · 여기 · 거기 · 저기
+    → 대상을 대신 가리키는 대명사
+  </div>
+
+</div>
+
+
+<div class="card">
+
+  <h3>③ ‘좋다’와 ‘좋아하다’를 구별</h3>
+
+  <div class="vs">
+
+    <div class="x">
+      <h4>좋다 → 형용사</h4>
+      <p>날씨가 좋다.</p>
+      <p>이 음식이 좋다.</p>
+      <p>기분이 좋다.</p>
+    </div>
+
+    <div class="y">
+      <h4>좋아하다 → 동사</h4>
+      <p>나는 축구를 좋아한다.</p>
+      <p>동생이 고양이를 좋아한다.</p>
+      <p>나는 이 노래를 좋아한다.</p>
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="card">
+
+  <h3>④ ‘싫다’와 ‘싫어하다’를 구별</h3>
+
+  <div class="vs">
+
+    <div class="x">
+      <h4>싫다 → 형용사</h4>
+      <p>나는 그 음식이 싫다.</p>
+      <p>비 오는 날이 싫다.</p>
+    </div>
+
+    <div class="y">
+      <h4>싫어하다 → 동사</h4>
+      <p>나는 그 음식을 싫어한다.</p>
+      <p>동생이 벌레를 싫어한다.</p>
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="card">
+
+  <h3>⑤ 눈에 보이는 움직임이 없어도 동사</h3>
+
+  <div class="row">
+    <span class="s">나는 그 사실을 <u>안다</u>.</span>
+    <span class="t a">동사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">나는 그 사실을 <u>모른다</u>.</span>
+    <span class="t a">동사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">동생은 엄마를 <u>닮았다</u>.</span>
+    <span class="t a">동사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">답이 <u>맞다</u>.</span>
+    <span class="t a">동사</span>
+  </div>
+
+  <div class="row">
+    <span class="s">답이 <u>틀리다</u>.</span>
+    <span class="t a">동사</span>
+  </div>
+
+  <div class="tip">
+    <b>주의</b>
+    ‘동사 = 몸을 움직이는 말’이라고만 외우면 이런 문제에서 틀릴 수 있어요.
+  </div>
+
+</div>
+
+
+<div class="final">
+
+  <h3>🧠 시험장에서 제일 먼저 생각할 것</h3>
+
+  <p>① 뒤에 명사를 꾸미고 있나? → 관형사 가능성</p>
+  <p>② 사람·사물·장소를 대신 가리키나? → 대명사 가능성</p>
+  <p>③ 혼자 수량을 나타내나? → 수사 가능성</p>
+  <p>④ 다른 말을 꾸미나? → 부사 가능성</p>
+  <p>⑤ 기본형이 동사/형용사인지 확인했나?</p>
+  <p>⑥ 활용형이라고 해서 다른 품사가 된 것은 아닌가?</p>
+  <p>⑦ 같은 모양이라도 문장에서 어떤 역할을 하는지 봤나?</p>
+
+</div>
+
+</section>
+
+
+<!-- 10 -->
+<section id="s10">
+
+<h2>✏️ 10. 확인 문제</h2>
+
+<div class="card">
+
+  <p style="margin:0 0 6px;color:var(--sub);font-size:14px">
+    먼저 혼자 풀고 ‘정답 보기’를 눌러 판별 근거까지 확인!
+  </p>
+
+
+  <details>
+    <summary><span class="n">1</span><span><u>이</u> 사람은 내 친구다.</span></summary>
+    <p class="ans"><b>관형사</b> — ‘사람’을 꾸밈</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">2</span><span><u>이</u>와 같이 행동하면 된다.</span></summary>
+    <p class="ans"><b>대명사</b> — 대상을 가리키며 조사 ‘와’가 붙음</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">3</span><span><u>둘</u>이 먼저 도착했다.</span></summary>
+    <p class="ans"><b>수사</b> — 수량을 나타내며 홀로 쓰임</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">4</span><span><u>두</u> 사람이 먼저 도착했다.</span></summary>
+    <p class="ans"><b>관형사</b> — ‘사람’을 꾸밈</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">5</span><span><u>엄마</u>! 여기 좀 와 봐.</span></summary>
+    <p class="ans"><b>명사</b> — 부르는 대상의 이름</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">6</span><span><u>야</u>! 거기 서!</span></summary>
+    <p class="ans"><b>감탄사</b> — 독립적으로 쓰이는 말</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">7</span><span>너<u>처럼</u> 행동해.</span></summary>
+    <p class="ans"><b>조사</b> — 체언 ‘너’ 뒤에 붙음</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">8</span><span>친구와 <u>같이</u> 공부했다.</span></summary>
+    <p class="ans"><b>부사</b> — ‘공부했다’를 꾸미며 ‘함께’라는 뜻</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">9</span><span>너<u>같이</u> 행동하지 마.</span></summary>
+    <p class="ans"><b>조사</b> — ‘너’ 뒤에 붙어 ‘너처럼’이라는 뜻을 나타냄</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">10</span><span><u>큰</u> 가방을 가져왔다.</span></summary>
+    <p class="ans"><b>형용사 ‘크다’의 활용형</b></p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">11</span><span>가방을 <u>크게</u> 만들었다.</span></summary>
+    <p class="ans"><b>형용사 ‘크다’의 활용형</b></p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">12</span><span><u>높은</u> 산에 올랐다.</span></summary>
+    <p class="ans"><b>형용사 ‘높다’의 활용형</b></p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">13</span><span>그는 능력을 <u>높이</u> 평가했다.</span></summary>
+    <p class="ans"><b>부사</b> — ‘평가했다’를 꾸밈</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">14</span><span>그는 능력을 <u>높게</u> 평가했다.</span></summary>
+    <p class="ans"><b>형용사 ‘높다’의 활용형</b></p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">15</span><span><u>과연</u> 그럴까?</span></summary>
+    <p class="ans"><b>부사</b> — 뒤의 말을 꾸밈</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">16</span><span>학생들은 <u>제각각</u> 다른 답을 썼다.</span></summary>
+    <p class="ans"><b>부사</b></p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">17</span><span><u>그</u> 남자가 범인이다.</span></summary>
+    <p class="ans"><b>관형사</b> — ‘남자’를 꾸밈</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">18</span><span>나는 <u>그</u>를 보았다.</span></summary>
+    <p class="ans"><b>대명사</b> — 대상을 대신 가리킴</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">19</span><span><u>무슨</u> 일이니?</span></summary>
+    <p class="ans"><b>관형사</b> — ‘일’을 꾸밈</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">20</span><span><u>무엇</u>을 먹을래?</span></summary>
+    <p class="ans"><b>대명사</b> — 대상을 대신 가리킴</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">21</span><span><u>많은</u> 학생이 참여했다.</span></summary>
+    <p class="ans"><b>형용사 ‘많다’의 활용형</b></p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">22</span><span>학생들이 <u>많이</u> 참여했다.</span></summary>
+    <p class="ans"><b>부사</b> — ‘참여했다’를 꾸밈</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">23</span><span><u>어떤</u> 사람이 왔다.</span></summary>
+    <p class="ans"><b>관형사</b> — ‘사람’을 꾸밈</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">24</span><span><u>어떠한</u> 사람이 왔다.</span></summary>
+    <p class="ans"><b>형용사 ‘어떠하다’의 활용형</b></p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">25</span><span><u>누구</u>를 만났니?</span></summary>
+    <p class="ans"><b>대명사</b> — 사람을 대신 가리킴</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">26</span><span><u>한</u> 사람이 왔다.</span></summary>
+    <p class="ans"><b>관형사</b> — ‘사람’을 꾸밈</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">27</span><span><u>하나</u>가 남았다.</span></summary>
+    <p class="ans"><b>수사</b> — 수량을 나타내며 홀로 쓰임</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">28</span><span><u>모든</u> 학생이 참여했다.</span></summary>
+    <p class="ans"><b>관형사</b> — ‘학생’을 꾸밈</p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">29</span><span>나는 축구를 <u>좋아한다</u>.</span></summary>
+    <p class="ans"><b>동사</b></p>
+  </details>
+
+
+  <details>
+    <summary><span class="n">30</span><span>날씨가 <u>좋다</u>.</span></summary>
+    <p class="ans"><b>형용사</b></p>
+  </details>
+
+</div>
+
+
+<div class="card">
+
+  <h3>🔥 최종 함정 5문제</h3>
+
+  <details>
+    <summary>
+      <span class="n">1</span>
+      <span><u>이</u> 사람과 <u>이</u>는 같은 품사일까?</span>
+    </summary>
+    <p class="ans">
+      <b>아니요.</b>
+      ‘이 사람’의 ‘이’는 관형사,
+      ‘이는’의 ‘이’는 대명사예요.
+    </p>
+  </details>
+
+
+  <details>
+    <summary>
+      <span class="n">2</span>
+      <span><u>높게</u> 평가했다와 <u>높이</u> 평가했다의 ‘높-’은 같은 품사일까?</span>
+    </summary>
+    <p class="ans">
+      <b>다르게 봐야 해요.</b>
+      ‘높게’는 형용사 ‘높다’의 활용형이고,
+      ‘높이’는 부사예요.
+    </p>
+  </details>
+
+
+  <details>
+    <summary>
+      <span class="n">3</span>
+      <span><u>친구와 같이</u>와 <u>친구같이</u>의 ‘같이’는 같은 품사일까?</span>
+    </summary>
+    <p class="ans">
+      <b>아니요.</b>
+      ‘친구와 같이’의 ‘같이’는 부사,
+      ‘친구같이’의 ‘같이’는 조사예요.
+    </p>
+  </details>
+
+
+  <details>
+    <summary>
+      <span class="n">4</span>
+      <span><u>두</u> 사람과 <u>둘</u>이 왔다에서 둘의 품사는?</span>
+    </summary>
+    <p class="ans">
+      <b>두 → 관형사 / 둘 → 수사</b>
+      ‘두’는 ‘사람’을 꾸미고,
+      ‘둘’은 혼자 수량을 나타내요.
+    </p>
+  </details>
+
+
+  <details>
+    <summary>
+      <span class="n">5</span>
+      <span><u>엄마!</u>와 <u>야!</u>의 품사는?</span>
+    </summary>
+    <p class="ans">
+      <b>엄마 → 명사 / 야 → 감탄사</b>
+      부르는 상황이라고 해서 모두 감탄사는 아니에요.
+    </p>
+  </details>
+
+</div>
+
+</section>
+
+
+<footer>
+  🍀 시험 잘 보세요!<br>
+  헷갈리면 “뒤에 뭐가 오지?” → “무엇을 꾸미지?” → “기본형이 뭐지?” 순서로 확인!
+</footer>
+
+</div>
+
+</body>
+</html>
